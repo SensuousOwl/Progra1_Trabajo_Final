@@ -8,7 +8,7 @@ public class DoorTrigger : MonoBehaviour
     //[SerializeField] private float doorOffsetX = 0f;
     //[SerializeField] private float doorOffsetY = 0f;
     //[SerializeField] private float speed = 5f;
-    [SerializeField] private Vector3 moveDirection;
+    [SerializeField] private Vector2 moveDirection;
     private bool keyObtain = false;
     //Vector3 startingPos;
 
