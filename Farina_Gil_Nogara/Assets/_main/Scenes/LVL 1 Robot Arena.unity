@@ -835,7 +835,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   door: {fileID: 1986892223}
   speed: 5
-  moveDirection: {x: -3, y: 0, z: 0}
+  moveDirection: {x: 0, y: 0, z: 0}
 --- !u!1001 &737083081
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1387,12 +1387,12 @@ PrefabInstance:
     - target: {fileID: 5317023684678866619, guid: f7cccd841175c6749a9aa7b878c553d5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.997
+      value: 4.96
       objectReference: {fileID: 0}
     - target: {fileID: 5317023684678866619, guid: f7cccd841175c6749a9aa7b878c553d5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.0034027
+      value: 4.46
       objectReference: {fileID: 0}
     - target: {fileID: 5317023684678866619, guid: f7cccd841175c6749a9aa7b878c553d5,
         type: 3}
@@ -1569,8 +1569,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 1844859769}
-  speed: 50
-  moveDirection: {x: -30, y: 0, z: 0}
+  speed: 5
+  moveDirection: {x: -15, y: 0, z: 0}
 --- !u!1 &1511542026
 GameObject:
   m_ObjectHideFlags: 0
@@ -2002,7 +2002,7 @@ PrefabInstance:
     - target: {fileID: 1776545889054233223, guid: a68929e452fb5494b91f3d161f38b8d3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.74028736
+      value: -0.54
       objectReference: {fileID: 0}
     - target: {fileID: 1776545889054233223, guid: a68929e452fb5494b91f3d161f38b8d3,
         type: 3}
