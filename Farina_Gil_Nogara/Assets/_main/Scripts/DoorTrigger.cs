@@ -7,10 +7,17 @@ public class DoorTrigger : MonoBehaviour
     [SerializeField] private GameObject door;
     //[SerializeField] private float doorOffsetX = 0f;
     //[SerializeField] private float doorOffsetY = 0f;
-    [SerializeField] private float speed = 5f;
+    //[SerializeField] private float speed = 5f;
     [SerializeField] private Vector3 moveDirection;
-
     private bool keyObtain = false;
+    //Vector3 startingPos;
+
+    private void Start()
+    {
+        keyObtain = false;
+       //startingPos = door.transform.position;
+    }
+    
     //Esto es lo que pasa cuando el player interactua con las llaves del nivel.
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -21,11 +28,13 @@ public class DoorTrigger : MonoBehaviour
         Update();
     }
 
-    private void Update()
+    void Update()
     {
-        //door.transform.Translate(moveDirection * speed);
-        if (keyObtain == true) door.transform.position += moveDirection * speed * Time.deltaTime;
         
-
+        if (keyObtain == true)
+        {
+            door.transform.Translate(moveDirection * Time.deltaTime);
+            //door.transform.Translate(doorOffsetX * Time.deltaTime, doorOffsetY * Time.deltaTime, 0f);
+        }
     }
 }
